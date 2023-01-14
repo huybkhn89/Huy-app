@@ -8,7 +8,7 @@ Submit = st.button("Submit")
 if Submit:
     st.text("Da submit")
 
-with open("E:\PY\Tep.jpg","rb") as anh:
+with open("Tep.jpg","rb") as anh:
     st.download_button(
         label="Tai anh",
         data=anh,
