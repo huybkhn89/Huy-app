@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("My first web-app")
 ten = st.text_input("First Name:")
 ho = st.text_input("Last Name:")
 st.write("Hello ",ten,ho)
